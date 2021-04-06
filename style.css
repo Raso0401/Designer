@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans&display=swap');
+:root {
+    --gray: #333333;
+    --darkgray: #2e2e2e;
+    --yellow: #f3cd52;
+    --lightgray: rgba(255,255,255,0.4);
+    --white: #fff;
+    --blau: #07607D;
+    --transition: .4s ease;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Pontano Sans', sans-serif;
+    background: var(--gray);
+    line-height: 1.7;
+    font-size: 16px;
+}
+button{
+    padding: 10px 20px;
+    background-color: var(--yellow);
+    color: var(--darkgray);
+    border: none;
+    font-size: 1rem;
+    
+}
+button:hover{
+    background-color: rgba(255,255,255,0.4);
+    cursor: pointer;
+    transition: var(--transition);
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+
+/******header*******/
+
+header {
+    background-color: var(--yellow);
+    height: 124.5vh;
+}
+header nav ul  {
+    display: flex;
+    justify-content: center;
+    padding: 30px 30px;
+    
+}
+header nav ul li{
+    padding: 0 55px;
+    list-style: none;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--darkgray);
+}
+hgroup{
+    text-align: center;
+    color: var(--darkgray);
+    padding-top: 60px;
+
+}
+hgroup h1{
+    font-weight: 600;
+    font-size: 3rem;
+
+}
+
+hgroup h3{
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+header img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top: 30px solid rgba(255,255,255,0.4);
+    border-left: 30px solid rgba(255,255,255,0.4);
+    border-right: 30px solid rgba(255,255,255,0.4);
+    margin-top: 50px;
+    
+}
+
+/******technical*******/
+
+.technical {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 40px;
+   
+}
+
+.technical article {
+    flex: 0 0 31%;
+    justify-content: center;
+    padding-top: 50px;
+    ;
+    
+}
+.technical article h3 {
+   
+    color:var(--white);
+    font-size: 1.5rem;
+    
+}
+.technical article p {
+   
+    color:var(--lightgray);
+    font-size: 1rem;
+    padding: 24px 0px;
+    
+}
+hr{
+    
+}
+
+/******portofolio*******/
+
+
+.portofolio img {
+    width: 100%;
+    height: auto;
+    margin: auto; 
+    padding-bottom: 25px;
+    
+}
+
+.portofolio {
+    padding-top: 180px;
+}
+
+
+.portofolio .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+   
+}
+.portofolio .container div {
+     
+    flex: 0 0 22%;
+    
+}
+
+.portofolio h2 {
+    text-align: center;
+    color: white;
+    padding: 35px 0px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    
+}
+.portofolio p {
+    text-align: center;
+    color: white;
+    padding: 15px auto;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding-bottom: 45px;
+}
+.portofolio button {
+    
+}
+
+.portofolio hr {
+    height: 1px solid var(--white);
+    width: 900px;
+    margin: 35px auto;
+    
+}
+.portofolio h3 {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+
+
+/******contact*******/
+
+.contact {
+    text-align: center;
+}
+
+.contact hr {
+    height: 1px solid var(--white);
+    width: 950px;
+    margin: 120px auto;
+}
+
+.contact h3 {
+    text-align: center;
+    font-size: 1.9rem;
+    color: var(--white);
+    font-weight: 100;
+}
+.contact p {
+    text-align: center;
+    font-size: 1rem;
+    color: var(--white);
+    font-weight: 100;
+    padding-bottom: 25px;
+}
+.contact button {
+    margin-bottom: 50px;
+}
+.contact form  {
+    width: 40%;
+    margin: auto;
+}
+
+.contact form input,
+.contact form textarea
+  {
+    display: block;
+    width: 100%;
+    margin: 15px;
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    background: var(--darkgray);
+}
+
+::placeholder {
+    color: rgba(255,255,255,0.4);
+}
+.contact i{
+    padding: 10px 10px;
+    background-color: var(--yellow);
+    color: var(--darkgray);
+    border: none;
+    font-size: 1.3rem; 
+    margin: 7px;
+}
+.contact i:hover {
+    background-color: rgba(255,255,255,0.4);
+    cursor: pointer;
+    transition: var(--transition);
+}
+.elementi {
+    padding-top: 25px;
+}
